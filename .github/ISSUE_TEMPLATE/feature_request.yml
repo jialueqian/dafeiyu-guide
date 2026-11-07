@@ -1,0 +1,20 @@
+name: 功能建议
+description: 想要新增的文档、脚本或能力
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 放哪个类型（教程/How-to/参考/解释），为什么
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 备选方案

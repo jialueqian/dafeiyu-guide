@@ -1,0 +1,14 @@
+# build output
+site/
+docs/_html/
+*.bundle
+# python
+__pycache__/
+*.pyc
+# local data
+*.db
+*.log
+.env
+# editors
+.vscode/
+.idea/

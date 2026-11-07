@@ -1,0 +1,55 @@
+site_name: 大肥鱼养成指南
+site_description: 可复现的 AI 数字生命搭建指南（DeepSeek Harness + 微信/QQ + 记忆/表情/人格）
+site_url: https://jialueqian.github.io/dafeiyu-guide/
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - attr_list
+nav:
+  - 首页: README.md
+  - 教程:
+      - 从零复现大肥鱼: tutorials/01-从零养成大肥鱼.md
+  - 操作指南:
+      - 排障: how-to/排障.md
+      - 换表情包: how-to/换表情包.md
+      - 恢复 QQ 小号: how-to/恢复QQ小号.md
+      - 切换人格与颜色话题: how-to/切换人格与颜色话题.md
+      - 备份与回滚: how-to/备份与回滚.md
+  - 参考:
+      - 端口与路径: reference/端口与路径.md
+      - 命令速查: reference/命令速查.md
+      - 配置项: reference/配置项.md
+      - 术语表: reference/术语表.md
+      - FAQ: reference/FAQ.md
+  - 解释:
+      - 架构: explanation/架构.md
+      - 风控权衡: explanation/风控权衡.md
+      - 各版指南差异: explanation/各版指南差异.md
+  - 写作规范: 写作规范与推荐项目.md
