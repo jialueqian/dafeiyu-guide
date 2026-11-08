@@ -50,6 +50,8 @@ nav:
       - FAQ: reference/FAQ.md
   - 解释:
       - 架构: explanation/架构.md
+      - 记忆系统: explanation/记忆系统.md
+      - 2026-11-08 状态与变更: explanation/2026-11-08-状态与变更.md
       - 风控权衡: explanation/风控权衡.md
       - 各版指南差异: explanation/各版指南差异.md
   - 写作规范: 写作规范与推荐项目.md

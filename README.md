@@ -88,7 +88,7 @@ python tools/md2html.py docs site   # 生成静态 HTML
 ## 架构 <a id="architecture"></a>
 
 ```
-主人（微信 / QQ / DSH GUI）
+用户（微信 / QQ / DSH GUI）
  │
  ├─ 微信 iLink ── dsh-plugin-weixin ── dsh-weixin-extras（记忆/表情/主动消息）
  ├─ QQ 官方 Bot ── @tencent-connect/dsh-qqbot ── DSH Agent（人设+记忆文件）
